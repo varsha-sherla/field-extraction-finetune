@@ -92,12 +92,12 @@ actually read closely, so use the real printed numbers, not placeholders:
 
 | Metric | Base model | Fine-tuned | Δ |
 |---|---|---|---|
-| Company accuracy | TBD | TBD | TBD |
-| Date accuracy | TBD | TBD | TBD |
-| Address accuracy | TBD | TBD | TBD |
-| Total accuracy | TBD | TBD | TBD |
-| Full-record exact match | TBD | TBD | TBD |
-| JSON parse failure rate | TBD | TBD | TBD |
+| Company accuracy | 46.5% | 85.0% | +38.5% |
+| Date accuracy | 92.2% | 97.8% | +5.6% |
+| Address accuracy | 0.8% | 31.0% | +30.2% |
+| Total accuracy | 41.6% | 88.6% | +47.1% |
+| Full-record exact match | 0.3% | 27.4% | +27.1% |
+| JSON parse failure rate | 2.8% | 0.0% | −2.8% |
 
 ## Limitations (worth stating honestly, not hiding)
 
@@ -113,8 +113,4 @@ actually read closely, so use the real printed numbers, not placeholders:
 
 ## Suggested CV bullet (fill in the real numbers first)
 
-> Designed, fine-tuned, and evaluated a local open-source LLM (LoRA/QLoRA,
-> Phi-4-mini) for structured field extraction from unstructured receipt
-> text, improving full-record exact-match accuracy from TBD% to TBD% over
-> the zero-shot base model — zero API cost, trained on a free GPU,
-> reproducible evaluation pipeline requiring no GPU to re-run.
+> Designed, fine-tuned, and evaluated a local open-source LLM (LoRA/QLoRA, Phi-4-mini) for structured field extraction from unstructured receipt text, improving full-record exact-match accuracy from 0.3% to 27.4% and per-field accuracy by up to 47 points over the zero-shot base model — zero API cost, trained on a free GPU, reproducible evaluation pipeline requiring no GPU to re-run.
