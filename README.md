@@ -113,4 +113,4 @@ actually read closely, so use the real printed numbers, not placeholders:
 
 ## Suggested CV bullet (fill in the real numbers first)
 
-> Designed, fine-tuned, and evaluated a local open-source LLM (LoRA/QLoRA, Phi-4-mini) for structured field extraction from unstructured receipt text, improving full-record exact-match accuracy from 0.3% to 27.4% and per-field accuracy by up to 47 points over the zero-shot base model — zero API cost, trained on a free GPU, reproducible evaluation pipeline requiring no GPU to re-run.
+> Designed, fine-tuned, and evaluated a local open-source LLM (LoRA/QLoRA, Phi-4-mini) for structured field extraction from unstructured receipt text, improving full-record exact-match accuracy from 0.3% to 27.4% and per-field accuracy by up to 47 points over the zero-shot base model zero API cost, trained on a free GPU, reproducible evaluation pipeline requiring no GPU to re-run.
