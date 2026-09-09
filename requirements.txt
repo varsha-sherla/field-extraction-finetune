@@ -1,0 +1,20 @@
+# --- Runs anywhere, no GPU needed (dataset prep, evaluation, scoring) ---
+pandas
+scikit-learn
+
+# --- Needed only if you fetch the real SROIE dataset (data/prepare_sroie.py) ---
+datasets
+huggingface_hub
+
+# --- Needed only for the GPU-side steps (training / generating predictions) ---
+# These are intentionally NOT auto-installed by `pip install -r requirements.txt`
+# on a plain laptop with no GPU -- install them inside the Colab notebook
+# instead (the first code cell does this for you), or uncomment below if
+# you're running this on a machine with its own NVIDIA GPU + CUDA set up.
+#
+# unsloth
+# trl
+# peft
+# accelerate
+# bitsandbytes
+# torch
